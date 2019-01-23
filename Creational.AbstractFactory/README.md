@@ -7,6 +7,6 @@ Abstract Factory patterns work around a super-factory which creates other factor
 In Abstract Factory pattern an interface is responsible for creating a factory of related objects without explicitly specifying their classes. Each generated factory can give the objects as per the Factory pattern.
 
 # Implementation
-We are going to create a Shape and Color interfaces and concrete classes implementing these interfaces. We create an abstract factory class AbstractFactory as next step. Factory classes ShapeFactory and ColorFactory are defined where each factory extends AbstractFactory. A factory creator/generator class FactoryProducer is created.
+We are going to create a Shape interface and concrete classes implementing this interfaces. We create an abstract factory class AbstractFactory as the next step. Factory class ShapeFactory is defined where each factory extends AbstractFactory. A factory creator/generator class FactoryProducer is created.
 
-Program, our demo class uses FactoryProducer to get a AbstractFactory object. It will pass information (CIRCLE / RECTANGLE / SQUARE for Shape) to AbstractFactory to get the type of object it needs. It also passes information (RED / GREEN / BLUE for Color) to AbstractFactory to get the type of object it needs.
+Program, our demo class uses FactoryProducer to get a AbstractFactory object. It will pass information (RECTANGLE / SQUARE for Shape) to AbstractFactory to get the type of object it needs.
