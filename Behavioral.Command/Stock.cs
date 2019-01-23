@@ -7,8 +7,10 @@ namespace Behavioral.Command
     /// </summary>
     public class Stock
     {
-        private const string Name = "ABC";
-        private const int Quantity = 10;
+        public string Name { get; set; }
+        public int Quantity { get; set; }
+        //private const string Name = "ABC";
+        //private const int Quantity = 10;
 
         public void Buy()
         {

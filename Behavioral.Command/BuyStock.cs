@@ -6,16 +6,16 @@
     /// </summary>
     public class BuyStock : IOrder
     {
-        private readonly Stock _abcStock;
+        private readonly Stock _stock;
 
-        public BuyStock(Stock abcStock)
+        public BuyStock(Stock stock)
         {
-            _abcStock = abcStock;
+            _stock = stock;
         }
 
         public void Execute()
         {
-            _abcStock.Buy();
+            _stock.Buy();
         }
     }
 }

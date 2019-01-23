@@ -9,10 +9,14 @@ namespace Behavioral.Command
     {
         private static void Main()
         {
-            var abcStock = new Stock();
+            var stock = new Stock
+            {
+                Name = "ABC",
+                Quantity = 10
+            };
 
-            var buyStockOrder = new BuyStock(abcStock);
-            var sellStockOrder = new SellStock(abcStock);
+            var buyStockOrder = new BuyStock(stock);
+            var sellStockOrder = new SellStock(stock);
 
             var broker = new Broker();
             broker.TakeOrder(buyStockOrder);
