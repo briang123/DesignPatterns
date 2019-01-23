@@ -7,17 +7,17 @@ namespace Behavioral.Command
     /// </summary>
     public class Stock
     {
-        private readonly string _name = "ABC";
-        private readonly int _quantity = 10;
+        private const string Name = "ABC";
+        private const int Quantity = 10;
 
         public void Buy()
         {
-            Console.WriteLine(@"Stock [Name: {0}, Quantity: {1}] bought", _name, _quantity);
+            Console.WriteLine(@"Stock [Name: {0}, Quantity: {1}] bought", Name, Quantity);
         }
 
         public void Sell()
         {
-            Console.WriteLine(@"Stock [Name: {0}, Quantity: {1}] sold", _name, _quantity);
+            Console.WriteLine(@"Stock [Name: {0}, Quantity: {1}] sold", Name, Quantity);
         }
     }
 }

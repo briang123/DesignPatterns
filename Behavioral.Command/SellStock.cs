@@ -1,5 +1,6 @@
 ﻿namespace Behavioral.Command
 {
+    /// <inheritdoc />
     /// <summary>
     /// Step 3: Create concrete classes implementing the Order interface
     /// </summary>

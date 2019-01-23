@@ -16,7 +16,7 @@ namespace Behavioral.Command
 
         public void PlaceOrders()
         {
-            foreach (IOrder order in _orderList)
+            foreach (var order in _orderList)
             {
                 order.Execute();
             }

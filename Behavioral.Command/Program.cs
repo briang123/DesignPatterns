@@ -1,14 +1,13 @@
-﻿using Microsoft.VisualBasic.CompilerServices;
-using System;
+﻿using System;
 
 namespace Behavioral.Command
 {
     /// <summary>
     /// Step 5: Use the Broker class to take and execute commands
     /// </summary>
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             var abcStock = new Stock();
 
