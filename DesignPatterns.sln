@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational.AbstractFactory"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Composite", "Structural.Composite\Structural.Composite.csproj", "{89193003-2369-4658-9D94-BBBB9BEA5BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavorial.ChainOfResponsibility", "Behavorial.ChainOfResponsibility\Behavorial.ChainOfResponsibility.csproj", "{5A22D1CD-875F-47BC-A550-A9AC6A6F1394}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.ChainOfResponsibility", "Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.csproj", "{5A22D1CD-875F-47BC-A550-A9AC6A6F1394}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Interpreter", "Behavioral.Interpreter\Behavioral.Interpreter.csproj", "{4EF8CE55-C226-4890-AD74-511B676A9F24}"
 EndProject
