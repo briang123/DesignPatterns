@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Composite", "Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavorial.ChainOfResponsibility", "Behavorial.ChainOfResponsibility\Behavorial.ChainOfResponsibility.csproj", "{5A22D1CD-875F-47BC-A550-A9AC6A6F1394}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Interpreter", "Behavioral.Interpreter\Behavioral.Interpreter.csproj", "{4EF8CE55-C226-4890-AD74-511B676A9F24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5A22D1CD-875F-47BC-A550-A9AC6A6F1394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A22D1CD-875F-47BC-A550-A9AC6A6F1394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A22D1CD-875F-47BC-A550-A9AC6A6F1394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF8CE55-C226-4890-AD74-511B676A9F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF8CE55-C226-4890-AD74-511B676A9F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF8CE55-C226-4890-AD74-511B676A9F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF8CE55-C226-4890-AD74-511B676A9F24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
