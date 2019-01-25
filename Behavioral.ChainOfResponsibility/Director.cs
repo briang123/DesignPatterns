@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Behavorial.ChainOfResponsibility
+namespace Behavioral.ChainOfResponsibility
 {
     internal class Director : Approver
     {
