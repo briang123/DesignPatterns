@@ -3,6 +3,8 @@
 The definitions below come from:
 https://www.dofactory.com/net/design-patterns
 
+(P) - Pending Completion
+
 ## Creational Patterns
 
 **Abstract Factory** - Creates an instance of several families of classes
@@ -11,24 +13,24 @@ https://www.dofactory.com/net/design-patterns
 
 **Factory Method** - Creates an instance of several derived classes
 
-**Prototype** - A fully initialized instance to be copied or cloned
+**Prototype** (P) - A fully initialized instance to be copied or cloned
 
-**Singleton** - A class of which only a single instance can exist
+**Singleton** (P) - A class of which only a single instance can exist
 
 ## Structural Patterns
-**Adapter** - Match interfaces of different classes
+**Adapter** (P) - Match interfaces of different classes
 
-**Bridge** - Separates an object’s interface from its implementation
+**Bridge** (P) - Separates an objectâ€™s interface from its implementation
 
 **Composite** - A tree structure of simple and composite objects
 
-**Decorator** - Add responsibilities to objects dynamically
+**Decorator** (P) - Add responsibilities to objects dynamically
 
 **Facade** - A single class that represents an entire subsystem
 
-**Flyweight** - A fine-grained instance used for efficient sharing
+**Flyweight** (P) - A fine-grained instance used for efficient sharing
 
-**Proxy** - An object representing another object
+**Proxy** (P) - An object representing another object
 
 ## Behavioral Patterns
 **Chain of Resp.** - A way of passing a request between a chain of objects
