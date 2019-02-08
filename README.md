@@ -1,6 +1,6 @@
 # C# Design Patterns
 
-The definitions below come from:
+The definitions below for the Creational, Structural, and Behavioral Patterns come from:
 https://www.dofactory.com/net/design-patterns
 
 (P) - Pending Completion
