@@ -54,3 +54,10 @@ https://www.dofactory.com/net/design-patterns
 **Template Method** - Defer the exact steps of an algorithm to a subclass
 
 **Visitor** - Defines a new operation to a class without change
+
+## Bonus Patterns
+
+**MVC** - Separation of concerns with a Model, View, Controller
+
+**Publish-Subscribe** - Ability for objects to publish events and for other objects to subscribe to those event triggers
+
