@@ -15,7 +15,7 @@ https://www.dofactory.com/net/design-patterns
 
 **Prototype** - A fully initialized instance to be copied or cloned
 
-**Singleton** (P) - A class of which only a single instance can exist
+**Singleton** - A class of which only a single instance can exist
 
 ## Structural Patterns
 **Adapter** (P) - Match interfaces of different classes
