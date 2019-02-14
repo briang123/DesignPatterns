@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.Memento", "Behav
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publish-Subscribe", "Publish-Subscribe\Publish-Subscribe.csproj", "{253819A7-4C0D-4CDF-8561-68B6F3E10D0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Visitor", "Behavioral.Visitor\Behavioral.Visitor.csproj", "{B0CFFBFE-8A82-4806-9AE0-0DD049C5E938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.Visitor", "Behavioral.Visitor\Behavioral.Visitor.csproj", "{B0CFFBFE-8A82-4806-9AE0-0DD049C5E938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.Builder", "Creational.Builder\Creational.Builder.csproj", "{C7AF23D0-5F51-4E61-8DDF-0593EB56A7E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational.Builder", "Creational.Builder\Creational.Builder.csproj", "{C7AF23D0-5F51-4E61-8DDF-0593EB56A7E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.Prototype", "Creational.Prototype\Creational.Prototype.csproj", "{A7E12BC7-2891-480D-9FC1-5647FF1ECBF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{C7AF23D0-5F51-4E61-8DDF-0593EB56A7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7AF23D0-5F51-4E61-8DDF-0593EB56A7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7AF23D0-5F51-4E61-8DDF-0593EB56A7E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E12BC7-2891-480D-9FC1-5647FF1ECBF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E12BC7-2891-480D-9FC1-5647FF1ECBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E12BC7-2891-480D-9FC1-5647FF1ECBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E12BC7-2891-480D-9FC1-5647FF1ECBF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

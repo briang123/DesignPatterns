@@ -13,7 +13,7 @@ https://www.dofactory.com/net/design-patterns
 
 **Factory Method** - Creates an instance of several derived classes
 
-**Prototype** (P) - A fully initialized instance to be copied or cloned
+**Prototype** - A fully initialized instance to be copied or cloned
 
 **Singleton** (P) - A class of which only a single instance can exist
 
